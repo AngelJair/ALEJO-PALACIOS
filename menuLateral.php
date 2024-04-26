@@ -19,7 +19,15 @@
                 </a>
                 <ul class="collapse list-unstyled" id="Catalogos">
                     <li>
-                        <a href="ListaPrecios.php">Productos</a>
+                        <a href="#Productos" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            &nbspProductos
+                        </a>
+                        <ul class="collapse list-unstyled" id="Productos">
+                            <li>
+                                <a href="ListaPrecios.php">Por categoría</a>
+                                <a href="ProductosPorNombre.php">Por Nombre</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="ClientesSaldo.php">Clientes</a>
